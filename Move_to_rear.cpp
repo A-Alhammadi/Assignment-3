@@ -21,7 +21,7 @@ void move_to_rear()
 	Q1.push(3);
 	Q1.push(4);
 	Q1.push(5);//add 1,2,3,4,5 as a test queue
-	cout << flush << "Element at front of queue: " << endl << Q1.front() << endl; // prints out the integer at the front before 
+	cout << "Element at front of queue: " << endl << Q1.front() << endl; // prints out the integer at the front before 
 	int n = Q1.front(); //set int n as whatever is the first element of the queue to save it
 	Q1.pop(); //removes the first element from the queue
 	Q1.push(n); // adds n (which is whatever was the first element previously) to the end of the queue 
